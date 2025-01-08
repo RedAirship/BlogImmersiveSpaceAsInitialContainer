@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA20DED02D1A8AB90001A12D /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = DA20DECF2D1A8AB90001A12D /* RealityKitContent */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA20DEE62D1A8ABB0001A12D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA20DEC22D1A8AB90001A12D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA20DEC92D1A8AB90001A12D;
+			remoteInfo = ImmersiveSpaceAsInitialContainer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA20DECA2D1A8AB90001A12D /* ImmersiveSpaceAsInitialContainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImmersiveSpaceAsInitialContainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA20DECE2D1A8AB90001A12D /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		DA20DEE52D1A8ABB0001A12D /* ImmersiveSpaceAsInitialContainerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImmersiveSpaceAsInitialContainerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DA20DEEB2D1A8ABB0001A12D /* Exceptions for "ImmersiveSpaceAsInitialContainer" folder in "ImmersiveSpaceAsInitialContainer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DA20DEC92D1A8AB90001A12D /* ImmersiveSpaceAsInitialContainer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DA20DECC2D1A8AB90001A12D /* ImmersiveSpaceAsInitialContainer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DA20DEEB2D1A8ABB0001A12D /* Exceptions for "ImmersiveSpaceAsInitialContainer" folder in "ImmersiveSpaceAsInitialContainer" target */,
+			);
+			path = ImmersiveSpaceAsInitialContainer;
+			sourceTree = "<group>";
+		};
+		DA20DEE82D1A8ABB0001A12D /* ImmersiveSpaceAsInitialContainerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ImmersiveSpaceAsInitialContainerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA20DEC72D1A8AB90001A12D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA20DED02D1A8AB90001A12D /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA20DEE22D1A8ABB0001A12D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA20DEC12D1A8AB90001A12D = {
+			isa = PBXGroup;
+			children = (
+				DA20DECC2D1A8AB90001A12D /* ImmersiveSpaceAsInitialContainer */,
+				DA20DECD2D1A8AB90001A12D /* Packages */,
+				DA20DEE82D1A8ABB0001A12D /* ImmersiveSpaceAsInitialContainerTests */,
+				DA20DECB2D1A8AB90001A12D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA20DECB2D1A8AB90001A12D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA20DECA2D1A8AB90001A12D /* ImmersiveSpaceAsInitialContainer.app */,
+				DA20DEE52D1A8ABB0001A12D /* ImmersiveSpaceAsInitialContainerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA20DECD2D1A8AB90001A12D /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				DA20DECE2D1A8AB90001A12D /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA20DEC92D1A8AB90001A12D /* ImmersiveSpaceAsInitialContainer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA20DEEC2D1A8ABB0001A12D /* Build configuration list for PBXNativeTarget "ImmersiveSpaceAsInitialContainer" */;
+			buildPhases = (
+				DA20DEC62D1A8AB90001A12D /* Sources */,
+				DA20DEC72D1A8AB90001A12D /* Frameworks */,
+				DA20DEC82D1A8AB90001A12D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DA20DECC2D1A8AB90001A12D /* ImmersiveSpaceAsInitialContainer */,
+			);
+			name = ImmersiveSpaceAsInitialContainer;
+			packageProductDependencies = (
+				DA20DECF2D1A8AB90001A12D /* RealityKitContent */,
+			);
+			productName = ImmersiveSpaceAsInitialContainer;
+			productReference = DA20DECA2D1A8AB90001A12D /* ImmersiveSpaceAsInitialContainer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA20DEE42D1A8ABB0001A12D /* ImmersiveSpaceAsInitialContainerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA20DEF12D1A8ABB0001A12D /* Build configuration list for PBXNativeTarget "ImmersiveSpaceAsInitialContainerTests" */;
+			buildPhases = (
+				DA20DEE12D1A8ABB0001A12D /* Sources */,
+				DA20DEE22D1A8ABB0001A12D /* Frameworks */,
+				DA20DEE32D1A8ABB0001A12D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA20DEE72D1A8ABB0001A12D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA20DEE82D1A8ABB0001A12D /* ImmersiveSpaceAsInitialContainerTests */,
+			);
+			name = ImmersiveSpaceAsInitialContainerTests;
+			packageProductDependencies = (
+			);
+			productName = ImmersiveSpaceAsInitialContainerTests;
+			productReference = DA20DEE52D1A8ABB0001A12D /* ImmersiveSpaceAsInitialContainerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA20DEC22D1A8AB90001A12D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					DA20DEC92D1A8AB90001A12D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					DA20DEE42D1A8ABB0001A12D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = DA20DEC92D1A8AB90001A12D;
+					};
+				};
+			};
+			buildConfigurationList = DA20DEC52D1A8AB90001A12D /* Build configuration list for PBXProject "ImmersiveSpaceAsInitialContainer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA20DEC12D1A8AB90001A12D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DA20DECB2D1A8AB90001A12D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA20DEC92D1A8AB90001A12D /* ImmersiveSpaceAsInitialContainer */,
+				DA20DEE42D1A8ABB0001A12D /* ImmersiveSpaceAsInitialContainerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA20DEC82D1A8AB90001A12D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA20DEE32D1A8ABB0001A12D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA20DEC62D1A8AB90001A12D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA20DEE12D1A8ABB0001A12D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA20DEE72D1A8ABB0001A12D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA20DEC92D1A8AB90001A12D /* ImmersiveSpaceAsInitialContainer */;
+			targetProxy = DA20DEE62D1A8ABB0001A12D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA20DEED2D1A8ABB0001A12D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImmersiveSpaceAsInitialContainer/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ImmersiveSpaceAsInitialContainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Debug;
+		};
+		DA20DEEE2D1A8ABB0001A12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImmersiveSpaceAsInitialContainer/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ImmersiveSpaceAsInitialContainer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+			};
+			name = Release;
+		};
+		DA20DEEF2D1A8ABB0001A12D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		DA20DEF02D1A8ABB0001A12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+		DA20DEF22D1A8ABB0001A12D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VXZ447JDLB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ImmersiveSpaceAsInitialContainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImmersiveSpaceAsInitialContainer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImmersiveSpaceAsInitialContainer";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		DA20DEF32D1A8ABB0001A12D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VXZ447JDLB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ImmersiveSpaceAsInitialContainerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImmersiveSpaceAsInitialContainer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImmersiveSpaceAsInitialContainer";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA20DEC52D1A8AB90001A12D /* Build configuration list for PBXProject "ImmersiveSpaceAsInitialContainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA20DEEF2D1A8ABB0001A12D /* Debug */,
+				DA20DEF02D1A8ABB0001A12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA20DEEC2D1A8ABB0001A12D /* Build configuration list for PBXNativeTarget "ImmersiveSpaceAsInitialContainer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA20DEED2D1A8ABB0001A12D /* Debug */,
+				DA20DEEE2D1A8ABB0001A12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA20DEF12D1A8ABB0001A12D /* Build configuration list for PBXNativeTarget "ImmersiveSpaceAsInitialContainerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA20DEF22D1A8ABB0001A12D /* Debug */,
+				DA20DEF32D1A8ABB0001A12D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA20DECF2D1A8AB90001A12D /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DA20DEC22D1A8AB90001A12D /* Project object */;
+}
